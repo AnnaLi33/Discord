@@ -30,7 +30,8 @@ async def Meowbaka(ctx):
                 "... haha...",
                 ":(",
                 "That's what a baka would say >:)",
-                "!!!!"
+                "!!!!",
+                ">:)"
              ]
     await ctx.channel.send("{0} {1}".format(random.choice(possible_responses), ctx.author))
 
