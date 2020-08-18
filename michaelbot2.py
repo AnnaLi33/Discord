@@ -1,5 +1,6 @@
 from discord.ext.commands import Bot
 import random
+import config as config
 
 BOT_Prefix = "!"
 
@@ -124,4 +125,4 @@ async def on_ready():
     print(client.user.id)
     print('------')
 
-client.run()
+client.run(config.TOKEN)
